@@ -1,0 +1,85 @@
+/* LOCA CAFE RESTAURANT */
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    background:#111;
+    color:#fff;
+    font-family:Arial,sans-serif;
+}
+
+header{
+    text-align:center;
+    padding:30px 20px;
+}
+
+.logo{
+    width:260px;
+    max-width:90%;
+    margin-bottom:20px;
+}
+
+h1{
+    color:#d4af37;
+    font-size:32px;
+    margin-bottom:10px;
+}
+
+.slogan{
+    color:#ffd700;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.adres,
+.telefon{
+    color:#ddd;
+    font-size:16px;
+    margin-bottom:6px;
+}
+
+.menu{
+    padding:20px;
+}
+
+.card{
+    display:block;
+    background:#d4af37;
+    color:#111;
+    transform:scale(1.03);
+    text-decoration:none;
+    text-align:center;
+    padding:18px;
+    margin-bottom:15px;
+    border:2px solid #d4af37;
+    border-radius:15px;
+    font-size:22px;
+    font-weight:bold;
+    transition:.3s;
+    box-shadow:0 0 15px rgba(212,175,55,.25);
+}
+
+.card:hover{
+    background:#d4af37;
+    color:#111;
+}
+
+.footer{
+    text-align:center;
+    padding:25px;
+}
+
+.btn{
+    display:inline-block;
+    background:#d4af37;
+    color:#111;
+    text-decoration:none;
+    padding:12px 20px;
+    margin:8px;
+    border-radius:10px;
+    font-weight:bold;
+}
